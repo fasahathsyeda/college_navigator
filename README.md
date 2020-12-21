@@ -1,7 +1,7 @@
 # Project-3
 
 
-The project link: # https://fasahathsyeda.github.io/project_2/
+# The project link:  https://fasahathsyeda.github.io/project_2/
 
 
 Introduction - College Navigator
