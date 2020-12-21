@@ -1,6 +1,9 @@
 # Project-3
 
 
+The project link: # https://fasahathsyeda.github.io/project_2/
+
+
 Introduction - College Navigator
 Our team created a responsive map of accredited United States’ colleges and universities.The website features interactive capabilities that allows users to utilize multiple drop down menus to filter selected search criteria. Users are able make a refined search of the different institutions by such fields as: 
 
