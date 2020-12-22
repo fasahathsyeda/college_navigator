@@ -351,8 +351,8 @@ checkboxes_t.forEach(function(checkbox) {
 document.querySelector('button').onclick=function(){update()};
 function update(){
   
-  map.removeLayer(layers['PUBLIC']);
-  map.removeLayer(layers['PRIVATE']);
+  map.removeLayer(PUBLIC);
+  map.removeLayer(PRIVATE);
   var marker = new Array();
 
 
