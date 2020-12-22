@@ -353,6 +353,9 @@ function update(){
   
   map.removeLayer(layers['PUBLIC']);
   map.removeLayer(layers['PRIVATE']);
+  if(map.hasLayers()){
+  map.removeLayer(marker);
+  }
   var marker = new Array();
 
 
@@ -362,6 +365,7 @@ function update(){
     console.log(marker[0]);
     console.log(marker);
     map.removeLayer(marker[i]);
+     
     //newMarkers.clearLayers();
   }
 
