@@ -353,7 +353,7 @@ function update(){
   
   map.removeLayer(layers['PUBLIC']);
   map.removeLayer(layers['PRIVATE']);
-  if(map.hasLayers()){
+  if(map.hasLayer()){
     marker.remove();
   //map.removeLayer(marker);
   }
