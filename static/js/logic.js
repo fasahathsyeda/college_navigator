@@ -348,16 +348,16 @@ checkboxes_t.forEach(function(checkbox) {
     build_svgmap(enabledType,enabledSettings)
 //     var button=d3.select("#form");
 // console.log(button);
+  var marker = new Array();
 document.querySelector('button').onclick=function(){update()};
 function update(){
   
   map.removeLayer(layers['PUBLIC']);
   map.removeLayer(layers['PRIVATE']);
-  if(map.hasLayer()){
-    marker.remove();
-  //map.removeLayer(marker);
-  }
-  var marker = new Array();
+  
+  
+  var mark=d3.select(".leaflet-marker-pane");
+  mark.html("");
 
 
   if(marker.length != 0){
@@ -366,7 +366,6 @@ function update(){
     console.log(marker[0]);
     console.log(marker);
     map.removeLayer(marker[i]);
-     
     //newMarkers.clearLayers();
   }
 
