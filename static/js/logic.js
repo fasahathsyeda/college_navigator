@@ -366,6 +366,7 @@ function update(){
     console.log(marker[0]);
     console.log(marker);
     map.removeLayer(marker[i]);
+    console.log(marker);
     //newMarkers.clearLayers();
   }
 
