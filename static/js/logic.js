@@ -478,9 +478,9 @@ console.log(layers);
       // Add the new marker to the appropriate layer
     //newMarker.addTo(layers[typeCode]);
     marker.push(newMarker);
-    map.addLayer(marker[i]);
+    //map.addLayer(marker[i]);
     
-    //map.addLayer(newMarker);
+    map.addLayer(newMarker);
     //newMarker.addTo(map);
     
 
